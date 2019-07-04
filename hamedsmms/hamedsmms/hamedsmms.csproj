@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3442D65C-DFC8-48C1-BA5B-6BD54AAC4454}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>hamedsmms</RootNamespace>
+    <AssemblyName>hamedsmms</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\ClassWorkTime.cs" />
+    <Compile Include="BL\CLS_PLACE.cs" />
+    <Compile Include="BL\CLS_PURCHASE.cs" />
+    <Compile Include="BL\CLS_RETURN_ORDER.cs" />
+    <Compile Include="BL\CLS_Supplier.cs" />
+    <Compile Include="BL\CLS_COMPANY.cs" />
+    <Compile Include="BL\CLS_CUSTOMER.cs" />
+    <Compile Include="BL\CLS_login.cs" />
+    <Compile Include="BL\CLS_ORDERS.cs" />
+    <Compile Include="BL\CLS_Product.cs" />
+    <Compile Include="BL\CLS_USER.cs" />
+    <Compile Include="PL\Attend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Attend.Designer.cs">
+      <DependentUpon>Attend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_PURC_DATILS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_PURC_DATILS.Designer.cs">
+      <DependentUpon>FORM_PURC_DATILS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="PL\FORMPLACE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORMPLACE.Designer.cs">
+      <DependentUpon>FORMPLACE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_ADD_PRODUCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_ADD_PRODUCT.Designer.cs">
+      <DependentUpon>FORM_ADD_PRODUCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_COMPANY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_COMPANY.Designer.cs">
+      <DependentUpon>FORM_COMPANY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_CATEGORIES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_CATEGORIES.Designer.cs">
+      <DependentUpon>FORM_CATEGORIES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_CUSTOMERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_CUSTOMERS.Designer.cs">
+      <DependentUpon>FORM_CUSTOMERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_CUSTOMERS_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_CUSTOMERS_LIST.Designer.cs">
+      <DependentUpon>FORM_CUSTOMERS_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Form_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form_main.Designer.cs">
+      <DependentUpon>Form_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_ORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_ORDER.Designer.cs">
+      <DependentUpon>FORM_ORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_PRODUCTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_PRODUCTS.Designer.cs">
+      <DependentUpon>FORM_PRODUCTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_PRODUCTS_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_PRODUCTS_LIST.Designer.cs">
+      <DependentUpon>FORM_PRODUCTS_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_PURCHASE_BILL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_PURCHASE_BILL.Designer.cs">
+      <DependentUpon>FORM_PURCHASE_BILL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_PURCHASE_MANGER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_PURCHASE_MANGER.Designer.cs">
+      <DependentUpon>FORM_PURCHASE_MANGER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_RETURN_MANAGEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_RETURN_MANAGEMENT.Designer.cs">
+      <DependentUpon>FORM_RETURN_MANAGEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_RETURN_ORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_RETURN_ORDER.Designer.cs">
+      <DependentUpon>FORM_RETURN_ORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_R_ORDER_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_R_ORDER_LIST.Designer.cs">
+      <DependentUpon>FORM_R_ORDER_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_USER.Designer.cs">
+      <DependentUpon>FORM_USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_USER_MANAGEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_USER_MANAGEMENT.Designer.cs">
+      <DependentUpon>FORM_USER_MANAGEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\sale_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\sale_management.Designer.cs">
+      <DependentUpon>sale_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\supplier.Designer.cs">
+      <DependentUpon>supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\supplier_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\supplier_list.Designer.cs">
+      <DependentUpon>supplier_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\supplier_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\supplier_management.Designer.cs">
+      <DependentUpon>supplier_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPT\FRM_RPT_PRODUCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT\FRM_RPT_PRODUCT.Designer.cs">
+      <DependentUpon>FRM_RPT_PRODUCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPT\RPT_ALL_CATEGORIES.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_ALL_CATEGORIES.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_ALL_PRODUCTS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_ALL_PRODUCTS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_ORDER.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_ORDER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_ORDERS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_ORDERS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_SINGLE_CATEGORY.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_SINGLE_CATEGORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_TO_SINGLE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_TO_SINGLE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SMMSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PL\Attend.resx">
+      <DependentUpon>Attend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_PURC_DATILS.resx">
+      <DependentUpon>FORM_PURC_DATILS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORMPLACE.resx">
+      <DependentUpon>FORMPLACE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_ADD_PRODUCT.resx">
+      <DependentUpon>FORM_ADD_PRODUCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_COMPANY.resx">
+      <DependentUpon>FORM_COMPANY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_CATEGORIES.resx">
+      <DependentUpon>FORM_CATEGORIES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_CUSTOMERS.resx">
+      <DependentUpon>FORM_CUSTOMERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_CUSTOMERS_LIST.resx">
+      <DependentUpon>FORM_CUSTOMERS_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form_main.resx">
+      <DependentUpon>Form_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_ORDER.resx">
+      <DependentUpon>FORM_ORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_PRODUCTS.resx">
+      <DependentUpon>FORM_PRODUCTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_PRODUCTS_LIST.resx">
+      <DependentUpon>FORM_PRODUCTS_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_PURCHASE_BILL.resx">
+      <DependentUpon>FORM_PURCHASE_BILL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_PURCHASE_MANGER.resx">
+      <DependentUpon>FORM_PURCHASE_MANGER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_RETURN_MANAGEMENT.resx">
+      <DependentUpon>FORM_RETURN_MANAGEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_RETURN_ORDER.resx">
+      <DependentUpon>FORM_RETURN_ORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_R_ORDER_LIST.resx">
+      <DependentUpon>FORM_R_ORDER_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_USER.resx">
+      <DependentUpon>FORM_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_USER_MANAGEMENT.resx">
+      <DependentUpon>FORM_USER_MANAGEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\sale_management.resx">
+      <DependentUpon>sale_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\supplier.resx">
+      <DependentUpon>supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\supplier_list.resx">
+      <DependentUpon>supplier_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\supplier_management.resx">
+      <DependentUpon>supplier_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RPT\FRM_RPT_PRODUCT.resx">
+      <DependentUpon>FRM_RPT_PRODUCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_ALL_CATEGORIES.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ALL_CATEGORIES.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_ALL_PRODUCTS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ALL_PRODUCTS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_ORDER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ORDER.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_ORDERS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ORDERS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_SINGLE_CATEGORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_SINGLE_CATEGORY.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_TO_SINGLE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_TO_SINGLE.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SMMSDataSet.xsc">
+      <DependentUpon>SMMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SMMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMMSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMMSDataSet.xss">
+      <DependentUpon>SMMSDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20160115-things-never-to-but-at-supermarket-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supermarketcart.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-mark-icon-sign-vector-450w-1027973512.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2109135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-restore-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crm_Customer_Relationship_Management__Client-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_18-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27_shop_cart_shopping_sale_offer_discount_ecommerce_finance-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\878543_open_512x512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category-management.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-login-man-person-location-place-geo-point-50935.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7d419ae3ab95eebc4fc55ac825f0a25eebe03ed6797fd03d83c45bb6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\235185.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joy-shopping-list-170421-today-tease_38871076465b7b7ca5d8bf6f06239f9d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-8111054.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-81110541.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VvBDobI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VvBDobI1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventory-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-1331579_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-28-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\400_F_200033431_ydgCPftKemsyw7ybiTusYTJDtnmhtTri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product20-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VvBDobI2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-1331579_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-blurred-photo-store-with-trolley-department-store-bokeh-background_1980-8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dairy-food-grocery-811102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0378af9c9d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_3001-e1559300427927-2880x4023.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,87 @@
+C:\Users\Hamed\Documents\Visual Studio 2010\Projects\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe.config
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\bin\Debug\hamedsmms.pdb
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.login.resources
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.Properties.Resources.resources
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csproj.GenerateResource.Cache
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.exe
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.pdb
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csprojResolveAssemblyReference.cache
+C:\Users\Hamed\documents\visual studio 2010\projects\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.Form_main.resources
+I:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe.config
+I:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.exe
+I:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.pdb
+I:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe
+I:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.pdb
+I:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csprojResolveAssemblyReference.cache
+I:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.Form_main.resources
+I:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.login.resources
+I:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.Properties.Resources.resources
+I:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csproj.GenerateResource.Cache
+J:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe.config
+J:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.exe
+J:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.pdb
+J:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe
+J:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.pdb
+J:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csprojResolveAssemblyReference.cache
+J:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.Form_main.resources
+J:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.login.resources
+J:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.Properties.Resources.resources
+J:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csproj.GenerateResource.Cache
+J:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_ADD_PRODUCT.resources
+F:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe.config
+F:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.exe
+F:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.pdb
+F:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe
+F:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.pdb
+F:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csprojResolveAssemblyReference.cache
+F:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_ADD_PRODUCT.resources
+F:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.Form_main.resources
+F:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.login.resources
+F:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.Properties.Resources.resources
+F:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csproj.GenerateResource.Cache
+D:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe.config
+D:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.exe
+D:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.pdb
+D:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe
+D:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.pdb
+D:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csprojResolveAssemblyReference.cache
+D:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_ADD_PRODUCT.resources
+D:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.Form_main.resources
+D:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.login.resources
+D:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.Properties.Resources.resources
+D:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csproj.GenerateResource.Cache
+G:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe.config
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.exe
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.pdb
+G:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.exe
+G:\hamedsmms\hamedsmms\bin\Debug\hamedsmms.pdb
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csprojResolveAssemblyReference.cache
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.Form_main.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.login.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.Properties.Resources.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.csproj.GenerateResource.Cache
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_ADD_PRODUCT.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_products.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.supplier.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.supplier_management.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.RPT.FRM_RPT_PRODUCT.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_CATEGORIES.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_CUSTOMERS.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_ORDER.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_CUSTOMERS_LIST.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_PRODUCTS_LIST.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_PURCHASE_BILL.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_COMPANY.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORMPLACE.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_USER.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_USER_MANAGEMENT.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.supplier_list.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_PURCHASE_MANGER.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_PURC_DATILS.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.sale_management.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_RETURN_MANAGEMENT.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_RETURN_ORDER.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.FORM_R_ORDER_LIST.resources
+G:\hamedsmms\hamedsmms\obj\x86\Debug\hamedsmms.PL.Attend.resources
+G:\hamedsmms\hamedsmms\bin\Debug\Microsoft.CSharp.dll
